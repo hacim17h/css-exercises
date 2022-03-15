@@ -18,12 +18,14 @@ ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   margin: 0px;
-  padding: 0px;     
+  padding: 10px;    
+  display: flex;   
+  column-gap: 10px;
 }
 
 .right-links, .left-links{
   display: flex;
-  align-items: center;
+  align-items: center;  
 }
 
 
