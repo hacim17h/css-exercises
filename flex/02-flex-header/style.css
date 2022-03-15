@@ -18,8 +18,15 @@ ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   margin: 0px;
-  padding: 0px;   
+  padding: 0px;     
 }
+
+.right-links, .left-links{
+  display: flex;
+  align-items: center;
+}
+
+
 
 a {
   font-size: 22px;
