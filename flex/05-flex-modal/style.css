@@ -65,6 +65,11 @@ button.cancel {
   color: royalblue;
 }
 
-.modal-header{
+.modal{
   display: flex;
+}
+
+.header{
+  font-weight: bold;
+  font-size: 20px;
 }
