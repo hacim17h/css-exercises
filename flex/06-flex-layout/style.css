@@ -30,9 +30,15 @@ input {
   display: flex;
   justify-content: space-between;
 }
-.left-links{
+.left-links, .right-links{
   display: flex;
+  list-style-type: none; 
+  gap: 15px;
+}
+
+.left-links{
+  padding-left: 10px;
 }
 .right-links{
-  display: flex;
+  padding-right: 10px;
 }
