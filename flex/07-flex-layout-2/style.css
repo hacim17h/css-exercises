@@ -27,13 +27,15 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  width: 300px;
-  max-height: 400px;
+  width: 300px;  
+  min-height: 250px;
 }
 
 .card-body{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .main-content{
   display: flex;
