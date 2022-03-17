@@ -17,7 +17,7 @@ body {
 
 .modal {
   background: white;
-  width: 480px;
+  width: 510px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
@@ -74,6 +74,19 @@ button.cancel {
   font-size: 20px;
 }
 
-.modal-left, .modal-right, .modal-center{
+.modal-left{
   padding: 10px; 
+}
+.modal-right{
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.modal-center{
+  padding: 10px 0px;
+}
+
+.text{
+  padding: 10px 0px;
+  
 }
