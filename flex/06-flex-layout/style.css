@@ -29,11 +29,16 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+  
 }
 
-.header{
+.header, .footer{
   display: flex;
   justify-content: space-between;
+}
+
+.footer{
+  background-color: #eeeeee;
 }
 .left-links, .right-links{
   display: flex;
@@ -59,3 +64,4 @@ a{
   align-self: center;
   align-items: center;
 }
+
