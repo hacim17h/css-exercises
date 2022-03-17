@@ -51,6 +51,9 @@ a{
   color: #4b4b4b;
 }
 
-.main-content{
+.content{
   display: flex;  
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
 }
