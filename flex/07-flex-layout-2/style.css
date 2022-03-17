@@ -27,8 +27,8 @@ body {
 }
 
 .sidebar {
-  width: 300px;
-  min-width: 300px;
+  width: 330px;
+  min-width: 330px;
   background: royalblue;  
   display: flex;  
 }
@@ -55,6 +55,7 @@ body {
   border-radius: 4px;
   width: 300px;  
   min-height: 250px;
+  padding: 15px;
 }
 
 .card-body{
