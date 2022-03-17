@@ -10,6 +10,7 @@ img {
 .content{
   display: flex;
   gap: 52px;
+  justify-content: center;
 }
 .title {
   font-size: 36px;
