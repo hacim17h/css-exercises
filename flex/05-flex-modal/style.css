@@ -73,3 +73,7 @@ button.cancel {
   font-weight: bold;
   font-size: 20px;
 }
+
+.modal-left, .modal-right, .modal-center{
+  padding: 10px; 
+}
