@@ -20,7 +20,25 @@ body {
 
 .sidebar {
   width: 300px;
-  background: royalblue;
+  min-width: 300px;
+  background: royalblue;  
+  display: flex;  
+}
+
+.sidebar > ul{
+  list-style-type: none;  
+  padding-left: 0px;
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sidebar > ul > li > a{
+  color: white;
+  text-decoration: none;  
+  font-size: 25px;  
+  
 }
 
 .card {
